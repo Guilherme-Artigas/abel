@@ -18,7 +18,7 @@ export default function Home() {
 
     if (user.email === 'user.test@email.com' && user.password === '12345678') {
       toast.success('Login realizado com sucesso!')
-      setTimeout(() => push('/ambiente'), 5000);
+      setTimeout(() => push('/ambiente'), 5500);
       return;
     } else {
       toast.error('Credencias inválidas.')
