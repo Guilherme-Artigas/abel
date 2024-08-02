@@ -83,13 +83,13 @@ export default function Home() {
         <footer className="flex flex-none justify-between">
           <span
             className="cursor-pointer"
-            onClick={ () => push('/termo') }
+            onClick={ () => push('/termos') }
           >
             Termos de uso
           </span>
           <span
             className="cursor-pointer"
-            onClick={ () => push('/politica') }
+            onClick={ () => push('/politicas') }
           >
             Política de Privacidade
           </span>
