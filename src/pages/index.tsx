@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   return (
-    <section className="flex">
+    <section className="flex m-auto max-w-7xl">
       <div className="h-screen w-1/2 flex flex-col p-5">
         <header className="flex-grow flex flex-col items-center justify-evenly p-2">
           {/* <Image
